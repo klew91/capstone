@@ -23,11 +23,11 @@ review = """I went to the Nike store today because I was looking for a specific 
 tokenizer = RegexpTokenizer(r'\w+')
 
 def read_words(words_file):
-    return [word for line in open(words_file, 'r') for word in line.split()]
+    return [word for line in open(words_file, 'r') for word in tokenizer.tokenize(line)]
 #words = tokenizer.tokenize(review)
 # [word for sent in sent_tokenize(review) for word in word_tokenize(sent)]
 
-words = read_words('warworlds.txt')
+words = read_words('white_fang.txt')
 stop_words = set(stopwords.words('english'))
 filtered_words = [w for w in words if not w in stop_words]
 
@@ -42,20 +42,29 @@ counts = filtered_words.map(lambda x: (x, 1)) \
 #	print(word_frequency(w[0], 'en') * 1e6)
 #counts.foreach(print_freq)
 
-SIPscores = counts.map(lambda x: (x[0], x[1]/(word_frequency(x[0], 'en')
-* 1e6 + .00000000000000001)))
+SIPscores = counts.map(lambda x: (x[0], x[1]/(word_frequency(x[0], 'en') * 1e6 + .00000000000000001)))\
+				  .filter(lambda x: x[1] > 0.9)\
+				  .sortBy(lambda x: x[1], ascending=False)
 
 #SIPscores.saveAsTextFile(sys.argv[1])
-sc.stop()
+#sc.stop()
 
 sentences = [words]
 model = Word2Vec(sentences, size=100, window=5, min_count=0, workers=4)
 #print(model.wv.similarity('dog', 'wolf'))
-#print(model.wv.similarity('forest', 'light'))
-#print(model.wv.similarity('dog', 'snarl'))
-print(model.wv.similarity('dog', 'man'))
-#print(model.wv.similarity('dog', 'sled'))
-print(model.wv.similarity('man', 'food'))
-print(model.wv.similarity('man', 'woman'))
 
+SIPscoreslist = SIPscores.collect()
+clusters = []
+for i, parent_word in enumerate(SIPscoreslist):
+	cluster = []
+	cluster.append(parent_word[0])
+	for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
+		if model.wv.similarity(parent_word[0], word[0]) > 0.95:
+			cluster.append(word[0])
+	clusters.append(cluster)
+
+file = open('test.txt', 'w')
+
+for cluster in clusters:
+  file.write("%s\n" % cluster)
 
