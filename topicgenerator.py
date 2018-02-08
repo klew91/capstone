@@ -1,6 +1,7 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
+from nltk import pos_tag
 import sys
 from operator import add
 from pyspark import SparkContext
@@ -8,6 +9,16 @@ import re
 from wordfreq import word_frequency
 import collections
 from gensim.models import Word2Vec
+import csv
+import nltk
+from nltk.collocations import *
+
+outfile = open('data.txt', 'w')
+
+with open('satisfaction.csv') as csvDataFile:
+    csvReader = csv.reader(csvDataFile)
+    for row in csvReader:
+        outfile.write("%s\n" % row[2])
 
 review = """I went to the Nike store today because I was looking for a specific kind of basketball shoe. 
 		    I wanted to get a pair of Nike Lebrons, because they are supposed to be the best basketball
@@ -27,7 +38,7 @@ def read_words(words_file):
 #words = tokenizer.tokenize(review)
 # [word for sent in sent_tokenize(review) for word in word_tokenize(sent)]
 
-words = read_words('white_fang.txt')
+words = read_words('data.txt')
 stop_words = set(stopwords.words('english'))
 filtered_words = [w for w in words if not w in stop_words]
 
@@ -42,15 +53,22 @@ counts = filtered_words.map(lambda x: (x, 1)) \
 #	print(word_frequency(w[0], 'en') * 1e6)
 #counts.foreach(print_freq)
 
-SIPscores = counts.map(lambda x: (x[0], x[1]/(word_frequency(x[0], 'en') * 1e6 + .00000000000000001)))\
-				  .filter(lambda x: x[1] > 0.9)\
+def calc_SIP(wordTuple):
+	word = wordTuple[0]
+	freq = word_frequency(word, 'en')
+	if freq == 0:
+		freq = float(.00001)
+	SIPscore = wordTuple[1]/freq
+	return (word, SIPscore)
+
+SIPscores = counts.map(calc_SIP)\
+				  .filter(lambda x: x[1] > 0.7)\
 				  .sortBy(lambda x: x[1], ascending=False)
 
-#SIPscores.saveAsTextFile(sys.argv[1])
-#sc.stop()
+SIPscores.saveAsTextFile(sys.argv[1])
 
 sentences = [words]
-model = Word2Vec(sentences, size=100, window=5, min_count=0, workers=4)
+model = Word2Vec(sentences, size=300, window=2, min_count=0, workers=4)
 #print(model.wv.similarity('dog', 'wolf'))
 
 SIPscoreslist = SIPscores.collect()
@@ -61,10 +79,37 @@ for i, parent_word in enumerate(SIPscoreslist):
 	for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
 		if model.wv.similarity(parent_word[0], word[0]) > 0.95:
 			cluster.append(word[0])
+	cluster = pos_tag(cluster)
 	clusters.append(cluster)
 
-file = open('test.txt', 'w')
-
+posClusters = []
 for cluster in clusters:
-  file.write("%s\n" % cluster)
+	nounBucket = [wordTuple[0] for wordTuple in cluster if wordTuple[1][:2] == 'NN']
+	adjBucket = [wordTuple[0] for wordTuple in cluster if wordTuple[1][:2] == 'JJ']
+	bucketCluster = [adjBucket, nounBucket]
+	posClusters.append(bucketCluster)
+
+bigram_measures = nltk.collocations.BigramAssocMeasures()
+finder = BigramCollocationFinder.from_words(words)
+top_assoc = finder.nbest(bigram_measures.pmi, 1000)
+
+topics = []
+
+for cluster in posClusters:
+	adjBucket = cluster[0]
+	nounBucket = cluster[1]
+
+	for adj in adjBucket:
+		for noun in nounBucket:
+			topic = (adj, noun)
+			if (adj, noun) in top_assoc:
+				topics.append(" ".join([adj, noun]))
+
+
+outfile = open('test.txt', 'w')
+
+for topic in topics:
+  outfile.write("%s\n" % topic)
+
+sc.stop()
 
