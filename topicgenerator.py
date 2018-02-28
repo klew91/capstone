@@ -93,17 +93,34 @@ bigram_measures = nltk.collocations.BigramAssocMeasures()
 finder = BigramCollocationFinder.from_words(words)
 top_assoc = finder.nbest(bigram_measures.pmi, 1000)
 
-topics = []
+topics = {}
 
-for cluster in posClusters:
-	adjBucket = cluster[0]
-	nounBucket = cluster[1]
+for assoc in top_assoc:
+	word1 = assoc[0]
+	word2 = assoc[1]
 
-	for adj in adjBucket:
-		for noun in nounBucket:
-			topic = (adj, noun)
-			if (adj, noun) in top_assoc:
-				topics.append(" ".join([adj, noun]))
+	for cluster in posClusters:
+		adjBucket = cluster[0]
+		nounBucket = cluster[1]
+
+		if word1 in adjBucket and word2 in nounBucket:
+
+			topicName = " ".join([word1, word2])
+			queryParams = [adjBucket, nounBucket]
+			if topicName in topics:
+				topics[topicName] += queryParams
+			else:
+				topics[topicName] = queryParams
+			continue
+
+		if word2 in adjBucket and word1 in nounBucket:
+			topicName = " ".join([word2, word1])
+			queryParams = [adjBucket, nounBucket]
+			if topicName in topics:
+				topics[topicName] += queryParams
+			else:
+				topics[topicName] = queryParams
+			continue
 
 
 outfile = open('test.txt', 'w')
