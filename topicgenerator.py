@@ -65,7 +65,7 @@ SIPscores = counts.map(calc_SIP)\
 				  .filter(lambda x: x[1] > 0.7)\
 				  .sortBy(lambda x: x[1], ascending=False)
 
-SIPscores.saveAsTextFile(sys.argv[1])
+#SIPscores.saveAsTextFile(sys.argv[1])
 
 sentences = [words]
 model = Word2Vec(sentences, size=300, window=2, min_count=0, workers=4)
@@ -73,14 +73,19 @@ model = Word2Vec(sentences, size=300, window=2, min_count=0, workers=4)
 
 SIPscoreslist = SIPscores.collect()
 clusters = []
+blacklist = {}
 for i, parent_word in enumerate(SIPscoreslist):
-	cluster = []
-	cluster.append(parent_word[0])
-	for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
-		if model.wv.similarity(parent_word[0], word[0]) > 0.95:
-			cluster.append(word[0])
-	cluster = pos_tag(cluster)
-	clusters.append(cluster)
+	if parent_word[0] not in blacklist:
+		cluster = []
+		blacklist[parent_word[0]] = 1
+		cluster.append(parent_word[0])
+		for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
+			if word[0] not in blacklist:
+				if model.wv.similarity(parent_word[0], word[0]) > 0.95:
+					blacklist[word[0]] = 1
+					cluster.append(word[0])
+		cluster = pos_tag(cluster)
+		clusters.append(cluster)
 
 posClusters = []
 for cluster in clusters:
@@ -91,7 +96,7 @@ for cluster in clusters:
 
 bigram_measures = nltk.collocations.BigramAssocMeasures()
 finder = BigramCollocationFinder.from_words(words)
-top_assoc = finder.nbest(bigram_measures.pmi, 1000)
+top_assoc = finder.nbest(bigram_measures.pmi, 10000)
 
 topics = {}
 
@@ -127,6 +132,8 @@ outfile = open('test.txt', 'w')
 
 for topic in topics:
   outfile.write("%s\n" % topic)
+  outfile.write("%s\n" % topics[topic])
+
 
 sc.stop()
 
