@@ -26,6 +26,7 @@ def searchMatchCount(search_term):
         for item in response['items']:
             match_count += sum(item['title'].count(x) for x in search_term.split())
             match_count += sum(item['snippet'].count(x) for x in search_term.split())
+    return match_count
 
 def searchTotalCount(search_term):
     return 0
@@ -38,4 +39,4 @@ def searchEngineTest(search_term):
     return final_score
 
 if __name__ == '__main__':
-    searchEngineTest("meddling kids")
+    print(str(searchEngineTest("effective support")))
