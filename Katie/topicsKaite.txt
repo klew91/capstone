@@ -1,0 +1,20 @@
+qualtrics affordable
+[['qualtrics', 'use', 'easy_use', 'easy', 'service', 'support'], ['affordable', 'enables', 'excellent', 'versitile', 'versatile', 'fairly', 'wide', 'sophisticated', 'relatively', 'provides']]
+customer_service complex
+[['customer_service', 'product', 'surveys', 'good', 'survey', 'tool'], ['complex', 'accessibility', 'awkward', 'frequently', 'qualtics', 'special', 'promote', 'traditional', 'purpose', 'monkey']]
+intuitive desk
+[['intuitive', 'ease_use', 'always', 'great', 'help', 'customer', 'visceral', 'nonrational'], ['desk', 'layout', 'anyone', 'centric', 'innovating', 'top', 'continuous', 'innovative', 'reasonably', 'respond']]
+functionality still
+[['functionality', 'like', 'time', 'work', 'could', 'reporting'], ['still', 'bit', 'afford', 'versatility', 'see', 'customization', 'beta', 'despite', 'spend', 'investment']]
+user_friendly types
+[['user_friendly', 'features', 'much', 'question'], ['types', 'easier', 'table', 'new', 'adding', 'advanced', 'added', 'nice', 'know', 'design']]
+responsive everything
+[['responsive', 'capabilities', 'need', 'also', 'antiphonal', 'reactive'], ['everything', 'offers', 'almost', 'though', 'love', 'us', 'job', 'run', 'design', 'happy']]
+ease per
+[['ease', 'make', 'one', 'quality', 'simplicity', 'simpleness', 'easiness'], ['per', 'row', 'table', 'high', 'professional', 'look', 'excellent', 'panel', 'per', 'tools']]
+triggers panel
+[['triggers', 'options', 'lot', 'business', 'many', 'things', 'gun_trigger', 'trigger'], ['panel', 'lots', 'usability', 'part', 'afford', 'questions', 'needs', 'user']]
+customer_support mind
+[['customer_support', 'software', 'data', 'platform'], ['mind', 'sources', 'excellent', 'collection', 'keep', 'therefore', 'setting', 'satisfied', 'research', 'best']]
+survey_tool phone
+[['survey_tool', 'get'], ['phone', 'results', 'would']]
