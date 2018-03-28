@@ -1,0 +1,20 @@
+easy use
+[['qualtrics', 'use', 'support', 'survey', 'great', 'service'], ['monkey', 'builder', 'affordable', 'building', 'analytic', 'enables', 'replying', 'quick', 'allows']]
+easy learn
+[['easy_use', 'customer_service', 'software', 'also', 'ease_use', 'easy'], ['saves', 'featured', 'little', 'everything', 'build', 'question_types', 'affordable', 'constantly', 'beginner']]
+customer service
+[['intuitive', 'features', 'quality', 'tool', 'customer', 'platform', 'visceral', 'nonrational'], ['high', 'curve', 'develop', 'advanced', 'needed', 'overall', 'adding', 'application', 'generally']]
+quality product
+[['functionality', 'data', 'think', 'product', 'like', 'good'], ['special', 'accessibility', 'promote', 'overall', 'helpdesk', 'marketing', 'insights', 'innovative', 'satisfied']]
+user friendly
+[['user_friendly', 'always', 'user', 'one', 'us'], ['row', 'table', 'complete', 'program', 'pretty', 'really', 'email', 'want', 'tools']]
+much easier
+[['responsive', 'much', 'comprehensive', 'reporting', 'customer_support', 'make', 'reactive', 'antiphonal'], ['gooddata', 'improvement', 'tools', 'versatility', 'problem', 'functions', 'price', 'ability', 'design']]
+ease use
+[['ease', 'friendly', 'help', 'easiness', 'simplicity', 'simpleness'], ['fast', 'tutorials', 'helpful', 'creating', 'functions', 'extremely', 'powerful', 'programming', 'learn']]
+tech support
+[['triggers', 'excellent', 'understand', 'gun_trigger', 'trigger'], ['tech', '1', 'best', 'tools']]
+question types
+[['survey_tool', 'could', 'question', 'cost', 'team'], ['type', 'range', 'afford', 'high', 'effective', 'better', 'table', 'per', 'business']]
+need help
+[['great_tool', 'needs', 'would', 'give', 'need'], ['10', 'meet', 'everything', 'using', 'almost', 'improvement', 'person', 'recommend', 'different']]
