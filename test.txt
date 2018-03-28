@@ -1,20 +1,20 @@
-wish capability
-[['sophisticated', 'basic', 'website', 'wish', 'wide', 'small'], ['capability', 'challenges', 'addition', 'information', 'anything']]
-effective cost
-[['afford', 'great', 'useful', 'complex', 'simple', 'multiple', 'effective', 'quick'], ['ability', 'reports', 'etc', 'solution', 'data', 'users', 'questions', 'needs', 'question', 'cost']]
-friendly user
-[['friendly', 'excel', 'excellent', 'easy', 'knowledgeable', 'helpful', 'satisfied'], ['flexibility', 'product', 'platform', 'user', 'software', 'features', 'panels', 'respondents', 'academics', 'options']]
+opt outs
+[['pleased', 'functional', 'analytical', 'opt'], ['folders', 'detractor', 'administrator', 'bugs', 'capability', 'incidence', 'outs', 'client', 'requests', 'efficiency']]
+smaller businesses
+[['fabulous', 'download', 'reasonable', 'difficult', 'smaller'], ['overview', 'administration', 'expert', 'businesses', 'tickets', 'products', 'requirements']]
+competitive price
+[['offline', 'complete', 'competitive', 'specific', 'agent', 'annual'], ['access', 'phone', 'account', 'ways', 'market', 'answer', 'price', 'report', 'guys', 'experience']]
+previous weeks
+[['previous', 'due', 'luck'], ['availability', 'request', 'company', 'site', 'address', 'management', 'weeks', 'addition', 'everything', 'things']]
+small companies
+[['outstanding', 'amazing', 'ed', 'longer', 'range', 'unable', 'past', 'poor', 'small'], ['projects', 'hear', 'companies', 'issue', 'page', 'direction']]
 complete report
-[['monkey', 'wonderful', 'complete'], ['feature', 'customers', 'services', 'option', 'access', 'account', 'market', 'answer', 'price', 'report', 'guys', 'experience']]
+[['offline', 'complete', 'competitive', 'specific', 'agent', 'annual'], ['access', 'phone', 'account', 'ways', 'market', 'answer', 'price', 'report', 'guys', 'experience']]
 effective solution
-[['afford', 'great', 'useful', 'complex', 'simple', 'multiple', 'effective', 'quick'], ['ability', 'reports', 'etc', 'solution', 'data', 'users', 'questions', 'needs', 'question', 'cost']]
-many times
-[['many', 'high'], ['willingness', 'number', 'business', 'someone', 'time', 'times']]
-complex reports
-[['afford', 'great', 'useful', 'complex', 'simple', 'multiple', 'effective', 'quick'], ['ability', 'reports', 'etc', 'solution', 'data', 'users', 'questions', 'needs', 'question', 'cost']]
-intuitive interface
-[['intuitive', 'responsive', 'robust', 'flexible'], ['qualtrics', 'surveys', 'functionality', 'usability', 'customer', 'ease', 'customization', 'tool', 'survey', 'capabilities', 'tutorials', 'interface']]
+[['useful', 'easier', 'complex', 'unwilling', 'overall', 'simple', 'multiple', 'effective'], ['researchers', 'solution', 'formats', 'users', 'questions', 'types', 'respond', 'lots']]
+great documentation
+[['prohibitive', 'great'], ['documentation', 'packages', 'ability', 'clients', 'possibilities', 'salesforce', 'creators', 'functions', 'reports', 'answers']]
+much job
+[['much', 'look', 'many'], ['quirks', 'resources', 'catch', 'feel', 'job', 'number', 'business', 'relationship', 'someone', 'type']]
 robust capabilities
-[['intuitive', 'responsive', 'robust', 'flexible'], ['qualtrics', 'surveys', 'functionality', 'usability', 'customer', 'ease', 'customization', 'tool', 'survey', 'capabilities', 'tutorials', 'interface']]
-excellent platform
-[['friendly', 'excel', 'excellent', 'easy', 'knowledgeable', 'helpful', 'satisfied'], ['flexibility', 'product', 'platform', 'user', 'software', 'features', 'panels', 'respondents', 'academics', 'options']]
+[['intuitive', 'responsive', 'robust', 'unprofessional'], ['qualtrics', 'surveys', 'functionality', 'usability', 'versatility', 'customer', 'ease', 'customization', 'tool', 'survey', 'capabilities', 'responsiveness', 'buggy']]

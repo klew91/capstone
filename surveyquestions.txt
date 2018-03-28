@@ -1,0 +1,125 @@
+Question 0: 
+Topic Name: easy use
+Topic Cluster: easy, friendly, helpful, useful, versatile, intuitive, robust, interface, functionality, learning, service, feature, tool, software, user
+
+Topic Name: friendly user
+Topic Cluster: flexible, friendly, excel, excellent, easy, innovative, interface, flexibility, product, platform, user, software, tools, panels, respondents, academics, setup, options
+
+Topic Name: robust capabilities
+Topic Cluster: intuitive, responsive, robust, unprofessional, qualtrics, surveys, functionality, usability, versatility, customer, ease, customization, tool, survey, capabilities, responsiveness, buggy
+
+Topic Name: ease of use
+Topic Cluster: ease, of, use, accessibility, interface, quirks, user, friendly, one, stop, ease, easy, accessible, simple, complicated, intuitive, difficult, quick, usability
+
+Topic Name: easy to use
+Topic Cluster: easy, to, use, tool, training, navigate, easy, convenient, user, friendly, intuitive, easy, to, use, ease, of, use, usability, friendliness
+
+Topic Name: qualtrics affordable
+Topic Cluster: qualtrics, affordable, qualtrics, use, easy, use, easy, service, support, affordable, enables, excellent, versitile, versatile, fairly, wide, sophisticated, relatively, provides
+
+Topic Name: qualtrics lot
+Topic Cluster: qualtrics, lot, qualtrics, use, easy, use, easy, support, service, lot, affordable, enables, versitile, versatile, fairly, wide, sophisticated, relatively, provides
+
+Topic Name: extensive functionality
+Topic Cluster: functionality, capability, feature, program, tool, extensive, simple, powerful, fantastic, broken, dynamic
+
+Question 1: 
+Topic Name: complex survey
+Topic Cluster: best, complex, easy, complicated, robust, simple, tool, package, monkey, system, software, option, platform, survey
+
+Topic Name: friendly user
+Topic Cluster: flexible, friendly, excel, excellent, easy, innovative, interface, flexibility, product, platform, user, software, tools, panels, respondents, academics, setup, options
+
+Topic Name: robust capabilities
+Topic Cluster: intuitive, responsive, robust, unprofessional, qualtrics, surveys, functionality, usability, versatility, customer, ease, customization, tool, survey, capabilities, responsiveness, buggy
+
+Topic Name: ease of use
+Topic Cluster: ease, of, use, accessibility, interface, quirks, user, friendly, one, stop, ease, easy, accessible, simple, complicated, intuitive, difficult, quick, usability
+
+Topic Name: excellent features
+Topic Cluster: excellent, features, features, product, package, feature, set, capabilities, functionality, tool, platform, excellent, advanced, comprehensive, options, customizable, robust, flexible, powerful, versatile
+
+Topic Name: customer service
+Topic Cluster: customer, service, complex, customer, service, product, surveys, good, survey, tool, complex, accessibility, awkward, frequently, qualtics, special, promote, traditional, purpose, monkey
+
+Topic Name: survey tool
+Topic Cluster: survey, tool, helpful, survey, tool, always, helpful, issues
+
+Topic Name: flexible product
+Topic Cluster: product, application, software, system, platform, flexible, intuitive, sophisticated, limited
+
+Question 2: 
+Topic Name: customer service
+Topic Cluster: responsive, good, great, slow, outstanding, helpful, excellent, service, support, customer, product, tool, survey, quality, platform, interface, software
+
+Topic Name: friendly user
+Topic Cluster: flexible, friendly, excel, excellent, easy, innovative, interface, flexibility, product, platform, user, software, tools, panels, respondents, academics, setup, options
+
+Topic Name: robust capabilities
+Topic Cluster: intuitive, responsive, robust, unprofessional, qualtrics, surveys, functionality, usability, versatility, customer, ease, customization, tool, survey, capabilities, responsiveness, buggy
+
+Topic Name: customer service
+Topic Cluster: customer, service, customer, service, customer, support, response, time, call, phone, service, people, support, team, knowledge, help, tech, support, friendly, great, superlative, available, prompt, superb, knowledgeable, rude, unprofessional, excellent
+
+Topic Name: customer service
+Topic Cluster: customer, service, customer, service, support, answers, help, desk, phone, service, assistance, documentation, tutorials, training, terrific, amazing, top, notch, excellent, engaged, helpful, responsive, friendly
+
+Topic Name: customer service
+Topic Cluster: customer, service, complex, customer, service, product, surveys, good, survey, tool, complex, accessibility, awkward, frequently, qualtics, special, promote, traditional, purpose, monkey
+
+Topic Name: customer service
+Topic Cluster: customer, service, accessibility, customer, service, survey, customer, good, great, user, accessibility, restrictive, monkey, row, per, package, sent, layout, purpose, improvements, centric
+
+Topic Name: responsive customer service
+Topic Cluster: customer service, support, service, good, excellent, great, helpful, spotty, responsive, friendly, available, slow
+
+Question 3: 
+Topic Name: tech support
+Topic Cluster: awesome, good, great, excellent, helpful, fantastic, tech, customer, phone, feature, quality, service, team, staff, support
+
+Topic Name: useful quality
+Topic Cluster: great, useful, simple, effective, improve, good, quality, researchers, data, questions, question, issues, system, help, guys
+
+Topic Name: great documentation
+Topic Cluster: prohibitive, great, documentation, packages, ability, clients, possibilities, salesforce, creators, functions, reports, answers
+
+Topic Name: customer service
+Topic Cluster: customer, service, customer, service, customer, support, response, time, call, phone, service, people, support, team, knowledge, help, tech, support, friendly, great, superlative, available, prompt, superb, knowledgeable, rude, unprofessional, excellent
+
+Topic Name: customer service
+Topic Cluster: customer, service, customer, service, support, answers, help, desk, phone, service, assistance, documentation, tutorials, training, terrific, amazing, top, notch, excellent, engaged, helpful, responsive, friendly
+
+Topic Name: qualtrics affordable
+Topic Cluster: qualtrics, affordable, qualtrics, use, easy, use, easy, service, support, affordable, enables, excellent, versitile, versatile, fairly, wide, sophisticated, relatively, provides
+
+Topic Name: customer service
+Topic Cluster: customer, service, accessibility, customer, service, survey, customer, good, great, user, accessibility, restrictive, monkey, row, per, package, sent, layout, purpose, improvements, centric
+
+Topic Name: responsive customer service
+Topic Cluster: customer service, support, service, good, excellent, great, helpful, spotty, responsive, friendly, available, slow
+
+Question 4: 
+Topic Name: great tool
+Topic Cluster: easy, best, robust, good, flexible, awesome, great, excellent, powerful, useful, complete, survey, tool, feature, customer, service, reporting, support, interface
+
+Topic Name: friendly user
+Topic Cluster: flexible, friendly, excel, excellent, easy, innovative, interface, flexibility, product, platform, user, software, tools, panels, respondents, academics, setup, options
+
+Topic Name: robust capabilities
+Topic Cluster: intuitive, responsive, robust, unprofessional, qualtrics, surveys, functionality, usability, versatility, customer, ease, customization, tool, survey, capabilities, responsiveness, buggy
+
+Topic Name: reporting services
+Topic Cluster: reporting, services, reporting, dashboards, reports, aggregate, responses, excel, exports, terrible, limited, good, bad
+
+Topic Name: excellent features
+Topic Cluster: excellent, features, features, product, package, feature, set, capabilities, functionality, tool, platform, excellent, advanced, comprehensive, options, customizable, robust, flexible, powerful, versatile
+
+Topic Name: qualtrics affordable
+Topic Cluster: qualtrics, affordable, qualtrics, use, easy, use, easy, service, support, affordable, enables, excellent, versitile, versatile, fairly, wide, sophisticated, relatively, provides
+
+Topic Name: customer service
+Topic Cluster: customer, service, accessibility, customer, service, survey, customer, good, great, user, accessibility, restrictive, monkey, row, per, package, sent, layout, purpose, improvements, centric
+
+Topic Name: responsive customer service
+Topic Cluster: customer service, support, service, good, excellent, great, helpful, spotty, responsive, friendly, available, slow
+

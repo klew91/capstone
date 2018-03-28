@@ -20,14 +20,11 @@ def f1_score (topicHuman, topicComputer):
     total_right = len(topicHuman & topicComputer)
     precision = total_right / total_terms
     recall = total_right / total_truth
+
+    if precision == 0:
+        precision = float(.00001)
+    if recall == 0:
+        recall = float(.00001)
+
     F1 = 2 / ((1/precision) + (1/recall))
     return F1
-
-### Example 
-# noun and adj clusters combined
-topic1 = ['shoe','boots','sneakers','slipper','fit','tight','loose','comfortable','size','hurt']
-topic2 = ['shoe','shoes','boot','slipper','sneaker','sandal','fit','tight','loose']
-
-# note: it doesn't matter what order you do
-print(f1_score(topic1, topic2))
-print(f1_score(topic2, topic1))

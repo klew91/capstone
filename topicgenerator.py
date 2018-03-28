@@ -65,7 +65,7 @@ for i, parent_word in enumerate(SIPscoreslist):
 		cluster.append(parent_word[0])
 		for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
 			if word[0] not in blacklist:
-				if model.wv.similarity(parent_word[0], word[0]) > .98:
+				if model.wv.similarity(parent_word[0], word[0]) > .80:
 					blacklist[word[0]] = 1
 					cluster.append(word[0])
 					if len(cluster) is 20:
@@ -77,6 +77,12 @@ posClusters = []
 for cluster in clusters:
 	nounBucket = [wordTuple[0] for wordTuple in cluster if wordTuple[1][:2] == 'NN']
 	adjBucket = [wordTuple[0] for wordTuple in cluster if wordTuple[1][:2] == 'JJ']
+
+	# if len(nounBucket) > 10:
+	# 	nounBucket = nounBucket[:10]
+	# if len(adjBucket) > 10:
+	# 	adjBucket = adjBucket[:10]
+
 	bucketCluster = [adjBucket, nounBucket]
 	posClusters.append(bucketCluster)
 
