@@ -1,0 +1,20 @@
+qualtrics monkey
+[['creating', 'best', 'although', 'top', 'satisfied', 'effective', 'comprehensive', 'learning', 'awesome'], ['surveys', 'functionality', 'customer', 'ease', 'tool', 'survey', 'product', 'platform', 'software']]
+capabilities helpful
+[['reporting', 'support', 'great'], []]
+interface powerful
+[['friendly', 'intuitive', 'good', 'easy', 'great', 'easy', 'great'], []]
+flexibility friendly
+[['great', 'support'], []]
+user friendly
+[['top', 'little', 'innovative', 'comprehensive', 'pretty', 'strong', 'etc', 'good', 'extremely'], ['service']]
+tools easy
+[['fairly', 'basic', 'comprehensive', 'advanced', 'handle', 'monkey', 'sometimes', 'comprehensive', 'strong'], ['options', 'use', 'ability', 'data', 'questions', 'needs', 'issues', 'system', 'call']]
+panels
+[[], []]
+limitations good
+[[], []]
+improvements great
+[['support'], []]
+programming good
+[['support', 'easy'], []]

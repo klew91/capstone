@@ -1,0 +1,20 @@
+happier qualtrics
+[['felicitous', 'happy', 'glad', 'well-chosen'], []]
+surveys instrument
+[['surveil', 'appraise', 'follow', 'study', 'survey', 'sight', 'go_over', 'view', 'resume', 'sketch', 'review'], ['instrumental_role', 'musical_instrument', 'legal_document', 'legal_instrument', 'tool', 'pawn', 'instrument', 'instrumentate', 'official_document', "cat's-paw"]]
+intuitive flexible
+[['nonrational', 'visceral', 'intuitive'], ['compromising', 'pliable', 'whippy', 'flexile', 'elastic', 'conciliatory', 'flexible', 'pliant']]
+use functionality
+[['apply', 'expend', 'utilization', 'purpose', 'use_of_goods_and_services', 'utilize', 'manipulation', 'practice', 'habituate', 'consumption', 'employment', 'use', 'enjoyment', 'role', 'exercise', 'habit', 'economic_consumption', 'function', 'utilise', 'employ', 'utilisation', 'usage', 'usance'], ['functionality']]
+survey instrument
+[['surveil', 'appraise', 'follow', 'study', 'survey', 'sight', 'go_over', 'view', 'resume', 'sketch', 'review'], ['instrumental_role', 'musical_instrument', 'legal_document', 'legal_instrument', 'tool', 'pawn', 'instrument', 'instrumentate', 'official_document', "cat's-paw"]]
+responsive support
+[['reactive', 'responsive', 'antiphonal'], ['indorse', 'put_up', 'bread_and_butter', 'supporting', 'stomach', 'support', 'stand', 'reenforcement', 'reinforcement', 'sustenance', 'backing', 'financial_support', 'sustain', 'underpin', 'brook', 'fend_for', 'endorse', 'funding', 'defend', 'plunk_for', 'substantiate', 'tolerate', 'financial_backing', 'subscribe', 'accompaniment', 'suffer', 'bear', 'patronage', 'keep_going', 'digest', 'livelihood', 'documentation', 'keep', 'hold', 'hold_up', 'bear_out', 'stick_out', 'back', 'backup', 'plump_for', 'confirm', 'endure', 'musical_accompaniment', 'affirm', 'abide', 'back_up', 'patronize', 'living', 'corroborate', 'patronise']]
+customer service
+[['client', 'customer'], ['religious_service', 'help', 'servicing', 'serve', 'divine_service', 'armed_service', 'Robert_William_Service', 'table_service', 'inspection_and_repair', 'Service', 'military_service', 'service_of_process', 'overhaul', 'service', 'serving', 'avail']]
+ease use
+[['ease', 'relief', 'allay', 'facilitate', 'informality', 'repose', 'comfort', 'still', 'relieve', 'easiness', 'relaxation', 'alleviate', 'simplicity', 'simpleness', 'rest'], ['apply', 'expend', 'utilization', 'purpose', 'use_of_goods_and_services', 'utilize', 'manipulation', 'practice', 'habituate', 'consumption', 'employment', 'use', 'enjoyment', 'role', 'exercise', 'habit', 'economic_consumption', 'function', 'utilise', 'employ', 'utilisation', 'usage', 'usance']]
+survey instrument
+[['surveil', 'appraise', 'follow', 'study', 'survey', 'sight', 'go_over', 'view', 'resume', 'sketch', 'review'], ['instrumental_role', 'musical_instrument', 'legal_document', 'legal_instrument', 'tool', 'pawn', 'instrument', 'instrumentate', 'official_document', "cat's-paw"]]
+panel triggers
+[['empanel', 'control_board', 'instrument_panel', 'gore', 'dialog_box', 'jury', 'board', 'impanel', 'venire', 'control_panel', 'panel'], ['trigger', 'spark_off', 'actuate', 'touch_off', 'initiation', 'gun_trigger', 'spark', 'trigger_off', 'set_off', 'induction', 'activate', 'trip']]
