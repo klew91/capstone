@@ -59,17 +59,17 @@ print(len(filtered_words))
 
 # ### Combine Frequent Bigrams
 
-# In[3]:
+# In[4]:
 
 
 bigram_measures = nltk.collocations.BigramAssocMeasures()
 finder = BigramCollocationFinder.from_words(filtered_words, window_size=2)
-finder.apply_freq_filter(4)
+finder.apply_freq_filter(1)
 top_bigrams = finder.nbest(bigram_measures.likelihood_ratio, 20)
 print(top_bigrams)
 
 
-# In[4]:
+# In[5]:
 
 
 combined_words = [w for w in words if not w in stop_words]
@@ -94,7 +94,7 @@ combined_words[:10]
 # ### SIP Scores
 # An alternative method that is a bit faster for smaller datasets than using Spark. Note that dividing by "num_words" normalizes the SIP score, so that any word with SIP = 1 is used in the corpus just as often as in normal english language. A word with SIP = 5 is used 5 times as often in the corpus as it is in normal english.
 
-# In[5]:
+# In[7]:
 
 
 num_words = len(combined_words)
@@ -123,23 +123,23 @@ word_SIP_sorted.sort(reverse = True)
 SIPscoreslist = list(zip(word_pool_sorted, word_SIP_sorted))
 
 
-# In[8]:
+# In[9]:
 
 
-SIPscoreslist[:15]
+SIPscoreslist[:20]
 
 
 # ### Word2Vec
 # Word2Vec feels very unstable to me, at least with this few responses. 
 
-# In[6]:
+# In[10]:
 
 
 sentences = [combined_words]
-model = Word2Vec(sentences, size=300, window=2, min_count=1, workers=4)
+model = Word2Vec(sentences, size=300, window=4, min_count=1, workers=4)
 
 
-# In[10]:
+# In[11]:
 
 
 # most similar words according to Word2Vec
@@ -148,7 +148,7 @@ print(model.wv.most_similar(positive=['easy_use'], topn=5))
 print(model.wv.most_similar(positive=['tool'], topn=5))
 
 
-# In[11]:
+# In[12]:
 
 
 print(model.wv.similarity('customer_support', 'customer_service'))
@@ -157,18 +157,9 @@ print(model.wv.similarity('affordable', 'cost'))
 print(model.wv.similarity('cost','price'))
 
 
-# ### Stem Words
-
-# In[7]:
-
-
-stemmer = SnowballStemmer('english')
-stem_words = [stemmer.stem(w) for w in word_pool_sorted]
-
-
 # ### Synonymns
 
-# In[8]:
+# In[25]:
 
 
 # this takes longer...so let's limit to top 30
@@ -180,7 +171,7 @@ for word in top_words:
     for syn in wn.synsets(word):
         for l in syn.lemmas():
             word_synonyms.append(l.name())
-    synonyms.append(list(set(word_synonyms[:4])))
+    synonyms.append(list(set(word_synonyms[:3])))
 
 
 # In[9]:
@@ -191,9 +182,10 @@ synonyms
 
 # ### Base "Noun" Clusters
 
-# In[10]:
+# In[26]:
 
 
+stemmer = SnowballStemmer('english')
 clusters = []
 blacklist = {}
 for i, parent_word in enumerate(SIPscoreslist):
@@ -206,15 +198,15 @@ for i, parent_word in enumerate(SIPscoreslist):
             blacklist[parent_word[0]] = 1
             cluster.append(parent_word[0])
             
-            # add 5 similar words from Word2Vec
+            # add 6 similar words from Word2Vec
             top_sim = [p[0] for p in model.wv.most_similar(positive=parent_word[0], topn=20)] # top 20
             top_sim = [w for w in top_sim if w not in blacklist] # remove any in blacklist
             top_sim = [w for w in top_sim if stemmer.stem(w) not in blacklist]
-            for word in top_sim[:5]: # take the top 5 not in blacklist
+            for word in top_sim[:6]: # take the top 6 not in blacklist
                 cluster.append(word)
                 blacklist[word] = 1
             
-            # add 4 similar words from WordNet synonyms
+            # add 3 similar words from WordNet synonyms
             top_sim = synonyms[i]
             for word in top_sim:
                 if word not in blacklist:
@@ -237,7 +229,7 @@ for i, parent_word in enumerate(SIPscoreslist):
 # print(model.wv.most_similar(positive=['great_tool'], topn=10))
 
 
-# In[11]:
+# In[27]:
 
 
 print(len(clusters))
@@ -250,7 +242,7 @@ print(clusters[10])
 
 # ### Descriptive "Adjective" Clusters
 
-# In[12]:
+# In[28]:
 
 
 bigram_measures = nltk.collocations.BigramAssocMeasures()
@@ -275,7 +267,7 @@ for i, cluster in enumerate(clusters):
     
     # find top 10 bigrams containing the parent_word
     # and NOT contains blacklist words
-    finder = BigramCollocationFinder.from_words(words_copy, window_size=5)
+    finder = BigramCollocationFinder.from_words(words_copy, window_size=3)
     parent_filter = lambda *w: parent_word not in w   
     blacklist_filter = create_myfilter(parent_word)
     finder.apply_ngram_filter(parent_filter)      # bigram must contain parent_word
@@ -291,7 +283,7 @@ for i,cluster in enumerate(clusters):
     descriptions[i] = [w for w in descriptions[i] if w != cluster[0]]
 
 
-# In[18]:
+# In[29]:
 
 
 print(descriptions[0])
@@ -322,7 +314,7 @@ print(descriptions[2])
 
 # ### Save Topics
 
-# In[15]:
+# In[30]:
 
 
 final_topics = []
@@ -337,16 +329,16 @@ for i,clust in enumerate(clusters):
     final_topics.append(queryParams)
 
 
-# In[16]:
+# In[31]:
 
 
-final_topics[:2]
+final_topics[:3]
 
 
-# In[18]:
+# In[33]:
 
 
-outfile = open('topicsKaite.txt', 'w')
+outfile = open('topicsKaite_var4.txt', 'w')
 
 for topic in final_topics[:10]:
     outfile.write("%s\n" % topic[0])

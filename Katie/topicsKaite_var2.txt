@@ -1,0 +1,20 @@
+qualtrics lot
+[['qualtrics', 'use', 'easy_use', 'easy', 'support', 'service'], ['lot', 'affordable', 'enables', 'versitile', 'versatile', 'fairly', 'wide', 'sophisticated', 'relatively', 'provides']]
+customer_service accessibility
+[['customer_service', 'survey', 'customer', 'good', 'great', 'user'], ['accessibility', 'restrictive', 'monkey', 'row_per', 'package', 'sent', 'layout', 'purpose', 'improvements', 'centric']]
+intuitive desk
+[['intuitive', 'help', 'like', 'product', 'friendly', 'needs', 'nonrational', 'visceral'], ['desk', 'organization', 'value', 'functional', 'bit', 'pretty', 'really', 'satisfied', 'quality', '8']]
+ease_use sources
+[['ease_use', 'tool', 'data', 'excellent', 'time', 'reporting'], ['sources', 'put', 'smaller', 'terms', 'still', 'research', 'ability', 'also', 'academic', 'beta']]
+functionality extremely
+[['functionality', 'system'], ['extremely', 'lot', 'quite', 'expensive', 'questions', 'well', 'used']]
+user_friendly training
+[['user_friendly', 'ease'], ['training', 'quality', 'know', 'research', 'surveys', 'using', 'well', 'options', 'question', 'surveys']]
+responsive name
+[['responsive', 'much', 'software', 'work', 'antiphonal', 'reactive'], ['name', 'versitile', 'easier', 'know', 'problem', 'well', 'market', 'already', 'best', 'everything']]
+customer_support adding
+[['customer_support', 'platform', 'features'], ['adding', 'keep', 'company', 'nice', 'expensive', 'new', 'anything', 'cost', 'online', 'advanced']]
+survey_tool helpful
+[['survey_tool', 'always'], ['helpful', 'issues']]
+great_tool see
+[['great_tool', 'would'], ['see', '10', 'recommend', 'options', 'question']]

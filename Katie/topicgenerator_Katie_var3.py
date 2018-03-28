@@ -3,7 +3,7 @@
 
 # ### Project Dependencies
 
-# In[1]:
+# In[2]:
 
 
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -28,7 +28,7 @@ from nltk.corpus import wordnet as wn
 
 # ### Load and Format Data
 
-# In[2]:
+# In[3]:
 
 
 outfile = open('data.txt', 'w')
@@ -50,7 +50,7 @@ stop_words.add('sanitized')
 filtered_words = [w for w in words if not w in stop_words]
 
 
-# In[3]:
+# In[4]:
 
 
 print(len(words))
@@ -59,17 +59,17 @@ print(len(filtered_words))
 
 # ### Combine Frequent Bigrams
 
-# In[3]:
+# In[11]:
 
 
 bigram_measures = nltk.collocations.BigramAssocMeasures()
 finder = BigramCollocationFinder.from_words(filtered_words, window_size=2)
-finder.apply_freq_filter(4)
+finder.apply_freq_filter(1)
 top_bigrams = finder.nbest(bigram_measures.likelihood_ratio, 20)
 print(top_bigrams)
 
 
-# In[4]:
+# In[12]:
 
 
 combined_words = [w for w in words if not w in stop_words]
@@ -85,7 +85,7 @@ for i in range(numB):
         count = count + 1
 
 
-# In[6]:
+# In[13]:
 
 
 combined_words[:10]
@@ -94,7 +94,7 @@ combined_words[:10]
 # ### SIP Scores
 # An alternative method that is a bit faster for smaller datasets than using Spark. Note that dividing by "num_words" normalizes the SIP score, so that any word with SIP = 1 is used in the corpus just as often as in normal english language. A word with SIP = 5 is used 5 times as often in the corpus as it is in normal english.
 
-# In[5]:
+# In[14]:
 
 
 num_words = len(combined_words)
@@ -105,8 +105,8 @@ word_count = []
 word_SIP = []
 for word in uniq_words:
     c = text.count(word)
-    # only interested in words that occur more than 5 times
-    if c < 6:
+    # only interested in words that occur more than 10 times
+    if c < 11:
         continue
     word_pool.append(word)
     freq = word_frequency(word, 'en')
@@ -123,7 +123,7 @@ word_SIP_sorted.sort(reverse = True)
 SIPscoreslist = list(zip(word_pool_sorted, word_SIP_sorted))
 
 
-# In[8]:
+# In[15]:
 
 
 SIPscoreslist[:15]
@@ -132,14 +132,14 @@ SIPscoreslist[:15]
 # ### Word2Vec
 # Word2Vec feels very unstable to me, at least with this few responses. 
 
-# In[6]:
+# In[18]:
 
 
 sentences = [combined_words]
-model = Word2Vec(sentences, size=300, window=2, min_count=1, workers=4)
+model = Word2Vec(sentences, size=300, window=3, min_count=1, workers=4)
 
 
-# In[10]:
+# In[19]:
 
 
 # most similar words according to Word2Vec
@@ -148,7 +148,7 @@ print(model.wv.most_similar(positive=['easy_use'], topn=5))
 print(model.wv.most_similar(positive=['tool'], topn=5))
 
 
-# In[11]:
+# In[20]:
 
 
 print(model.wv.similarity('customer_support', 'customer_service'))
@@ -157,18 +157,9 @@ print(model.wv.similarity('affordable', 'cost'))
 print(model.wv.similarity('cost','price'))
 
 
-# ### Stem Words
-
-# In[7]:
-
-
-stemmer = SnowballStemmer('english')
-stem_words = [stemmer.stem(w) for w in word_pool_sorted]
-
-
 # ### Synonymns
 
-# In[8]:
+# In[21]:
 
 
 # this takes longer...so let's limit to top 30
@@ -183,7 +174,7 @@ for word in top_words:
     synonyms.append(list(set(word_synonyms[:4])))
 
 
-# In[9]:
+# In[22]:
 
 
 synonyms
@@ -191,9 +182,10 @@ synonyms
 
 # ### Base "Noun" Clusters
 
-# In[10]:
+# In[23]:
 
 
+stemmer = SnowballStemmer('english')
 clusters = []
 blacklist = {}
 for i, parent_word in enumerate(SIPscoreslist):
@@ -237,7 +229,7 @@ for i, parent_word in enumerate(SIPscoreslist):
 # print(model.wv.most_similar(positive=['great_tool'], topn=10))
 
 
-# In[11]:
+# In[24]:
 
 
 print(len(clusters))
@@ -250,7 +242,7 @@ print(clusters[10])
 
 # ### Descriptive "Adjective" Clusters
 
-# In[12]:
+# In[25]:
 
 
 bigram_measures = nltk.collocations.BigramAssocMeasures()
@@ -291,7 +283,7 @@ for i,cluster in enumerate(clusters):
     descriptions[i] = [w for w in descriptions[i] if w != cluster[0]]
 
 
-# In[18]:
+# In[26]:
 
 
 print(descriptions[0])
@@ -301,12 +293,12 @@ print(descriptions[2])
 
 # ### Cluster Titles
 
-# In[19]:
+# In[51]:
 
 
 # def create_clustfilter(clust):
 #     def bigram_filter(w1, w2):
-#         return w2 not in clust and w1 not in clust
+#         return w2 not in clust or w1 not in clust
 #     return bigram_filter
 
 # topics = []
@@ -322,7 +314,7 @@ print(descriptions[2])
 
 # ### Save Topics
 
-# In[15]:
+# In[27]:
 
 
 final_topics = []
@@ -337,16 +329,16 @@ for i,clust in enumerate(clusters):
     final_topics.append(queryParams)
 
 
-# In[16]:
+# In[28]:
 
 
 final_topics[:2]
 
 
-# In[18]:
+# In[30]:
 
 
-outfile = open('topicsKaite.txt', 'w')
+outfile = open('topicsKaite_var3.txt', 'w')
 
 for topic in final_topics[:10]:
     outfile.write("%s\n" % topic[0])
