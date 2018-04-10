@@ -65,7 +65,7 @@ for i, parent_word in enumerate(SIPscoreslist):
 		cluster.append(parent_word[0])
 		for word in SIPscoreslist[:i] + SIPscoreslist[(i+1):]:
 			if word[0] not in blacklist:
-				if model.wv.similarity(parent_word[0], word[0]) > .80:
+				if model.wv.similarity(parent_word[0], word[0]) > .98:
 					blacklist[word[0]] = 1
 					cluster.append(word[0])
 					if len(cluster) is 20:
@@ -112,8 +112,17 @@ for assoc in top_assoc:
 			continue
 
 		if word2 in adjBucket and word1 in nounBucket:
-			topicName = " ".join([word2, word1])
+			topicName = " ".join([word1, word2])
 			queryParams = [topicName, adjBucket, nounBucket]
+			if topicName not in blacklist:
+				topics.append(queryParams)
+			else:
+				blacklist[topicName] = 1
+			continue
+
+		if (word1 in nounBucket and word2 in nounBucket) and (word1 != word2):
+			topicName = " ".join([word1, word2])
+			queryParams = [topicName, nounBucket]
 			if topicName not in blacklist:
 				topics.append(queryParams)
 			else:

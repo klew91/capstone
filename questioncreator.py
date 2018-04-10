@@ -20,25 +20,30 @@ with open('surveytopics.csv') as csvDataFile:
 baseSet = topicSets[0][:5]
 restTopicSets = topicSets[1:]
 questions = []
+blacklist = []
 
 for parent_topic in baseSet:
 	question = []
 	question.append(parent_topic)
 	parent_cluster = parent_topic[1]
 
-	for topicSet in restTopicSets:
+	for topicSetIndex, topicSet in enumerate(restTopicSets):
 		highest_f1 = 0
 		index_highest = 0
-		for i,topic in enumerate(topicSet):
 
+		for topicIndex,topic in enumerate(topicSet):
+
+			topicName = topic[0]
 			topicCluster = topic[1]
 			current_f1 = f1_score(parent_cluster, topicCluster)
 
-			if(current_f1 > highest_f1):
+			if(current_f1 > highest_f1) and ((topicSetIndex, topicIndex) not in blacklist):
 				highest_f1 = current_f1
-				index_highest = i
+				index_highest = topicIndex
 
-		question.append(topicSet[index_highest])
+		topicHighest = topicSet[index_highest]
+		question.append(topicHighest)
+		blacklist.append((topicSetIndex, index_highest))
 
 	questions.append(question)
 

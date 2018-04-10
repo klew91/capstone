@@ -1,0 +1,140 @@
+Algorithm  1  average F1 Score for  1  topics:  0.0
+Algorithm  1  % improvement over humans for  1  topics:  0.0 
+
+Algorithm  2  average F1 Score for  1  topics:  0.0
+Algorithm  2  % improvement over humans for  1  topics:  0.0 
+
+Algorithm  3  average F1 Score for  1  topics:  0.0
+Algorithm  3  % improvement over humans for  1  topics:  0.0 
+
+Algorithm  4  average F1 Score for  1  topics:  0.0
+Algorithm  4  % improvement over humans for  1  topics:  0.0 
+
+Average F1 Score across all algorithms for  1  topics:  0.0 
+
+Algorithm  1  average F1 Score for  2  topics:  0.08265197650364431
+Algorithm  1  % improvement over humans for  2  topics:  51.348249408977054 
+
+Algorithm  2  average F1 Score for  2  topics:  0.029099612477142107
+Algorithm  2  % improvement over humans for  2  topics:  -0.025510848381443747 
+
+Algorithm  3  average F1 Score for  2  topics:  0.029099612477142107
+Algorithm  3  % improvement over humans for  2  topics:  -0.025510848381443747 
+
+Algorithm  4  average F1 Score for  2  topics:  0.031245207807239057
+Algorithm  4  % improvement over humans for  2  topics:  -0.023365253051346797 
+
+Average F1 Score across all algorithms for  2  topics:  0.04302410231629189 
+
+Algorithm  1  average F1 Score for  3  topics:  0.17343306635328043
+Algorithm  1  % improvement over humans for  3  topics:  51.067187102742096 
+
+Algorithm  2  average F1 Score for  3  topics:  0.07653683533333068
+Algorithm  2  % improvement over humans for  3  topics:  -0.03826841766666535 
+
+Algorithm  3  average F1 Score for  3  topics:  0.07846398379022756
+Algorithm  3  % improvement over humans for  3  topics:  -0.03634126920976846 
+
+Algorithm  4  average F1 Score for  3  topics:  0.07962484872222023
+Algorithm  4  % improvement over humans for  3  topics:  -0.0351804042777758 
+
+Average F1 Score across all algorithms for  3  topics:  0.10201468354976473 
+
+Algorithm  1  average F1 Score for  4  topics:  0.19457357780736903
+Algorithm  1  % improvement over humans for  4  topics:  28.78535086104287 
+
+Algorithm  2  average F1 Score for  4  topics:  0.11386999285881588
+Algorithm  2  % improvement over humans for  4  topics:  -0.037213633117643585 
+
+Algorithm  3  average F1 Score for  4  topics:  0.15761414925411438
+Algorithm  3  % improvement over humans for  4  topics:  4.3224560143085515 
+
+Algorithm  4  average F1 Score for  4  topics:  0.15342680048525284
+Algorithm  4  % improvement over humans for  4  topics:  1.550912280301285 
+
+Average F1 Score across all algorithms for  4  topics:  0.15487113010138803 
+
+Algorithm  1  average F1 Score for  5  topics:  0.19515774678272124
+Algorithm  1  % improvement over humans for  5  topics:  7.76004358893618 
+
+Algorithm  2  average F1 Score for  5  topics:  0.14488319810053102
+Algorithm  2  % improvement over humans for  5  topics:  -0.03622079952513277 
+
+Algorithm  3  average F1 Score for  5  topics:  0.1763761788179339
+Algorithm  3  % improvement over humans for  5  topics:  -0.004727818807729878 
+
+Algorithm  4  average F1 Score for  5  topics:  0.17129018869173354
+Algorithm  4  % improvement over humans for  5  topics:  -0.009813808933930246 
+
+Average F1 Score across all algorithms for  5  topics:  0.17192682809822993 
+
+Algorithm  1  average F1 Score for  6  topics:  0.19662079077888964
+Algorithm  1  % improvement over humans for  6  topics:  6.227852034113848 
+
+Algorithm  2  average F1 Score for  6  topics:  0.15424453742111746
+Algorithm  2  % improvement over humans for  6  topics:  -0.030848907484223503 
+
+Algorithm  3  average F1 Score for  6  topics:  0.1796575531690205
+Algorithm  3  % improvement over humans for  6  topics:  -0.005435891736320475 
+
+Algorithm  4  average F1 Score for  6  topics:  0.17819506759956144
+Algorithm  4  % improvement over humans for  6  topics:  -0.006898377305779524 
+
+Average F1 Score across all algorithms for  6  topics:  0.17717948724214727 
+
+Algorithm  1  average F1 Score for  7  topics:  0.19427562747082422
+Algorithm  1  % improvement over humans for  7  topics:  7.885545711804561 
+
+Algorithm  2  average F1 Score for  7  topics:  0.15435058079827946
+Algorithm  2  % improvement over humans for  7  topics:  -0.025725096799713243 
+
+Algorithm  3  average F1 Score for  7  topics:  0.17702919560136565
+Algorithm  3  % improvement over humans for  7  topics:  -0.0030464819966270484 
+
+Algorithm  4  average F1 Score for  7  topics:  0.17577563654182934
+Algorithm  4  % improvement over humans for  7  topics:  -0.004300041056163356 
+
+Average F1 Score across all algorithms for  7  topics:  0.17535776010307466 
+
+Algorithm  1  average F1 Score for  8  topics:  0.19972088435028765
+Algorithm  1  % improvement over humans for  8  topics:  3.852399417646616 
+
+Algorithm  2  average F1 Score for  8  topics:  0.16827321736083756
+Algorithm  2  % improvement over humans for  8  topics:  -0.024039031051548226 
+
+Algorithm  3  average F1 Score for  8  topics:  0.20222541585322135
+Algorithm  3  % improvement over humans for  8  topics:  5.154724944808617 
+
+Algorithm  4  average F1 Score for  8  topics:  0.18510817694669482
+Algorithm  4  % improvement over humans for  8  topics:  -0.007204071465690964 
+
+Average F1 Score across all algorithms for  8  topics:  0.18883192362776033 
+
+Algorithm  1  average F1 Score for  9  topics:  0.20424042904208972
+Algorithm  1  % improvement over humans for  9  topics:  5.2234684457876535 
+
+Algorithm  2  average F1 Score for  9  topics:  0.17253474982242029
+Algorithm  2  % improvement over humans for  9  topics:  -0.021566843727802543 
+
+Algorithm  3  average F1 Score for  9  topics:  0.20686599745396347
+Algorithm  3  % improvement over humans for  9  topics:  6.576145857575311 
+
+Algorithm  4  average F1 Score for  9  topics:  0.19107189021616167
+Algorithm  4  % improvement over humans for  9  topics:  -0.0030297033340611623 
+
+Average F1 Score across all algorithms for  9  topics:  0.19367826663365878 
+
+Algorithm  1  average F1 Score for  10  topics:  0.20182747885568275
+Algorithm  1  % improvement over humans for  10  topics:  6.718431667763141 
+
+Algorithm  2  average F1 Score for  10  topics:  0.17440986761976007
+Algorithm  2  % improvement over humans for  10  topics:  -0.014711613741598406 
+
+Algorithm  3  average F1 Score for  10  topics:  0.21734608183203571
+Algorithm  3  % improvement over humans for  10  topics:  14.924058476862227 
+
+Algorithm  4  average F1 Score for  10  topics:  0.1991123372236881
+Algorithm  4  % improvement over humans for  10  topics:  5.282771576455598 
+
+Average F1 Score across all algorithms for  10  topics:  0.19817394138279165 
+
