@@ -1,140 +1,296 @@
-Algorithm  1  average F1 Score for  1  topics:  0.0
-Algorithm  1  % improvement over humans for  1  topics:  0.0 
+Algorithm  1  average F1 Score for  1  topics:  0.17895656822193506
+Algorithm  1  % improvement over humans for  1  topics:  63.84824940897703 
 
-Algorithm  2  average F1 Score for  1  topics:  0.0
+Algorithm  2  average F1 Score for  1  topics:  0.10922092171717171
 Algorithm  2  % improvement over humans for  1  topics:  0.0 
 
-Algorithm  3  average F1 Score for  1  topics:  0.0
+Algorithm  3  average F1 Score for  1  topics:  0.10922092171717171
 Algorithm  3  % improvement over humans for  1  topics:  0.0 
 
-Algorithm  4  average F1 Score for  1  topics:  0.0
+Algorithm  4  average F1 Score for  1  topics:  0.10922092171717171
 Algorithm  4  % improvement over humans for  1  topics:  0.0 
 
-Average F1 Score across all algorithms for  1  topics:  0.0 
+Algorithm  1  average F1 Score for  2  topics:  0.26732492784242046
+Algorithm  1  % improvement over humans for  2  topics:  55.23385376940878 
 
-Algorithm  1  average F1 Score for  2  topics:  0.08265197650364431
-Algorithm  1  % improvement over humans for  2  topics:  51.348249408977054 
+Algorithm  2  average F1 Score for  2  topics:  0.17220787949999405
+Algorithm  2  % improvement over humans for  2  topics:  0.0 
 
-Algorithm  2  average F1 Score for  2  topics:  0.029099612477142107
-Algorithm  2  % improvement over humans for  2  topics:  -0.025510848381443747 
+Algorithm  3  average F1 Score for  2  topics:  0.17220787949999405
+Algorithm  3  % improvement over humans for  2  topics:  0.0 
 
-Algorithm  3  average F1 Score for  2  topics:  0.029099612477142107
-Algorithm  3  % improvement over humans for  2  topics:  -0.025510848381443747 
+Algorithm  4  average F1 Score for  2  topics:  0.17220787949999405
+Algorithm  4  % improvement over humans for  2  topics:  0.0 
 
-Algorithm  4  average F1 Score for  2  topics:  0.031245207807239057
-Algorithm  4  % improvement over humans for  2  topics:  -0.023365253051346797 
+Algorithm  1  average F1 Score for  3  topics:  0.27114219090132463
+Algorithm  1  % improvement over humans for  3  topics:  34.59873090925072 
 
-Average F1 Score across all algorithms for  2  topics:  0.04302410231629189 
+Algorithm  2  average F1 Score for  3  topics:  0.20144483463527926
+Algorithm  2  % improvement over humans for  3  topics:  0.0 
 
-Algorithm  1  average F1 Score for  3  topics:  0.17343306635328043
-Algorithm  1  % improvement over humans for  3  topics:  51.067187102742096 
+Algorithm  3  average F1 Score for  3  topics:  0.2437263381113657
+Algorithm  3  % improvement over humans for  3  topics:  20.989122680975232 
 
-Algorithm  2  average F1 Score for  3  topics:  0.07653683533333068
-Algorithm  2  % improvement over humans for  3  topics:  -0.03826841766666535 
+Algorithm  4  average F1 Score for  3  topics:  0.23814320641955034
+Algorithm  4  % improvement over humans for  3  topics:  18.21757894696797 
 
-Algorithm  3  average F1 Score for  3  topics:  0.07846398379022756
-Algorithm  3  % improvement over humans for  3  topics:  -0.03634126920976846 
+Algorithm  1  average F1 Score for  4  topics:  0.26644529395882954
+Algorithm  1  % improvement over humans for  4  topics:  17.698249603330574 
 
-Algorithm  4  average F1 Score for  3  topics:  0.07962484872222023
-Algorithm  4  % improvement over humans for  3  topics:  -0.0351804042777758 
+Algorithm  2  average F1 Score for  4  topics:  0.22637999703207973
+Algorithm  2  % improvement over humans for  4  topics:  0.0 
 
-Average F1 Score across all algorithms for  3  topics:  0.10201468354976473 
+Algorithm  3  average F1 Score for  4  topics:  0.2518573340399444
+Algorithm  3  % improvement over humans for  4  topics:  11.254235065766155 
 
-Algorithm  1  average F1 Score for  4  topics:  0.19457357780736903
-Algorithm  1  % improvement over humans for  4  topics:  28.78535086104287 
+Algorithm  4  average F1 Score for  4  topics:  0.24866084034874578
+Algorithm  4  % improvement over humans for  4  topics:  9.842231473087566 
 
-Algorithm  2  average F1 Score for  4  topics:  0.11386999285881588
-Algorithm  2  % improvement over humans for  4  topics:  -0.037213633117643585 
+Algorithm  1  average F1 Score for  5  topics:  0.25694567922763567
+Algorithm  1  % improvement over humans for  5  topics:  15.682864655670189 
 
-Algorithm  3  average F1 Score for  4  topics:  0.15761414925411438
-Algorithm  3  % improvement over humans for  4  topics:  4.3224560143085515 
+Algorithm  2  average F1 Score for  5  topics:  0.22211213388640916
+Algorithm  2  % improvement over humans for  5  topics:  0.0 
 
-Algorithm  4  average F1 Score for  4  topics:  0.15342680048525284
-Algorithm  4  % improvement over humans for  4  topics:  1.550912280301285 
+Algorithm  3  average F1 Score for  5  topics:  0.2433530805386257
+Algorithm  3  % improvement over humans for  5  topics:  9.56316356092433 
 
-Average F1 Score across all algorithms for  4  topics:  0.15487113010138803 
+Algorithm  4  average F1 Score for  5  topics:  0.24159809785527492
+Algorithm  4  % improvement over humans for  5  topics:  8.773029923178857 
 
-Algorithm  1  average F1 Score for  5  topics:  0.19515774678272124
-Algorithm  1  % improvement over humans for  5  topics:  7.76004358893618 
+Algorithm  1  average F1 Score for  6  topics:  0.2439858986104128
+Algorithm  1  % improvement over humans for  6  topics:  16.134934504796135 
 
-Algorithm  2  average F1 Score for  5  topics:  0.14488319810053102
-Algorithm  2  % improvement over humans for  5  topics:  -0.03622079952513277 
+Algorithm  2  average F1 Score for  6  topics:  0.2100882905309915
+Algorithm  2  % improvement over humans for  6  topics:  0.0 
 
-Algorithm  3  average F1 Score for  5  topics:  0.1763761788179339
-Algorithm  3  % improvement over humans for  5  topics:  -0.004727818807729878 
+Algorithm  3  average F1 Score for  6  topics:  0.23029404677355067
+Algorithm  3  % improvement over humans for  6  topics:  9.617745087786544 
 
-Algorithm  4  average F1 Score for  5  topics:  0.17129018869173354
-Algorithm  4  % improvement over humans for  5  topics:  -0.009813808933930246 
+Algorithm  4  average F1 Score for  6  topics:  0.22883156120409165
+Algorithm  4  % improvement over humans for  6  topics:  8.921616062336037 
 
-Average F1 Score across all algorithms for  5  topics:  0.17192682809822993 
+Algorithm  1  average F1 Score for  7  topics:  0.24572358275243814
+Algorithm  1  % improvement over humans for  7  topics:  11.801581377869153 
 
-Algorithm  1  average F1 Score for  6  topics:  0.19662079077888964
-Algorithm  1  % improvement over humans for  6  topics:  6.227852034113848 
+Algorithm  2  average F1 Score for  7  topics:  0.21978542675701232
+Algorithm  2  % improvement over humans for  7  topics:  0.0 
 
-Algorithm  2  average F1 Score for  6  topics:  0.15424453742111746
-Algorithm  2  % improvement over humans for  6  topics:  -0.030848907484223503 
+Algorithm  3  average F1 Score for  7  topics:  0.24975727485182095
+Algorithm  3  % improvement over humans for  7  topics:  13.636867801951464 
 
-Algorithm  3  average F1 Score for  6  topics:  0.1796575531690205
-Algorithm  3  % improvement over humans for  6  topics:  -0.005435891736320475 
+Algorithm  4  average F1 Score for  7  topics:  0.23411945586502297
+Algorithm  4  % improvement over humans for  7  topics:  6.521828730645502 
 
-Algorithm  4  average F1 Score for  6  topics:  0.17819506759956144
-Algorithm  4  % improvement over humans for  6  topics:  -0.006898377305779524 
+Algorithm  1  average F1 Score for  8  topics:  0.2462961827049674
+Algorithm  1  % improvement over humans for  8  topics:  12.791418235083253 
 
-Average F1 Score across all algorithms for  6  topics:  0.17717948724214727 
+Algorithm  2  average F1 Score for  8  topics:  0.21836429274400077
+Algorithm  2  % improvement over humans for  8  topics:  2.5421350044778753e-14 
 
-Algorithm  1  average F1 Score for  7  topics:  0.19427562747082422
-Algorithm  1  % improvement over humans for  7  topics:  7.885545711804561 
+Algorithm  3  average F1 Score for  8  topics:  0.24864664348162568
+Algorithm  3  % improvement over humans for  8  topics:  13.867812524241991 
 
-Algorithm  2  average F1 Score for  7  topics:  0.15435058079827946
-Algorithm  2  % improvement over humans for  7  topics:  -0.025725096799713243 
+Algorithm  4  average F1 Score for  8  topics:  0.23466931958812642
+Algorithm  4  % improvement over humans for  8  topics:  7.466892429725636 
 
-Algorithm  3  average F1 Score for  7  topics:  0.17702919560136565
-Algorithm  3  % improvement over humans for  7  topics:  -0.0030464819966270484 
+Algorithm  1  average F1 Score for  9  topics:  0.23877019956176793
+Algorithm  1  % improvement over humans for  9  topics:  13.62706026767531 
 
-Algorithm  4  average F1 Score for  7  topics:  0.17577563654182934
-Algorithm  4  % improvement over humans for  7  topics:  -0.004300041056163356 
+Algorithm  2  average F1 Score for  9  topics:  0.21421853145296665
+Algorithm  2  % improvement over humans for  9  topics:  1.9432995764712875 
 
-Average F1 Score across all algorithms for  7  topics:  0.17535776010307466 
+Algorithm  3  average F1 Score for  9  topics:  0.25375352027197956
+Algorithm  3  % improvement over humans for  9  topics:  20.757391810195543 
 
-Algorithm  1  average F1 Score for  8  topics:  0.19972088435028765
-Algorithm  1  % improvement over humans for  8  topics:  3.852399417646616 
+Algorithm  4  average F1 Score for  9  topics:  0.2362893758157541
+Algorithm  4  % improvement over humans for  9  topics:  12.446474458310641 
 
-Algorithm  2  average F1 Score for  8  topics:  0.16827321736083756
-Algorithm  2  % improvement over humans for  8  topics:  -0.024039031051548226 
+Algorithm  1  average F1 Score for  10  topics:  0.23757424733379046
+Algorithm  1  % improvement over humans for  10  topics:  13.228746621870727 
 
-Algorithm  3  average F1 Score for  8  topics:  0.20222541585322135
-Algorithm  3  % improvement over humans for  8  topics:  5.154724944808617 
+Algorithm  2  average F1 Score for  10  topics:  0.22456681185565724
+Algorithm  2  % improvement over humans for  10  topics:  7.0293557683470285 
 
-Algorithm  4  average F1 Score for  8  topics:  0.18510817694669482
-Algorithm  4  % improvement over humans for  8  topics:  -0.007204071465690964 
+Algorithm  3  average F1 Score for  10  topics:  0.2644626273135025
+Algorithm  3  % improvement over humans for  10  topics:  26.043845892785555 
 
-Average F1 Score across all algorithms for  8  topics:  0.18883192362776033 
+Algorithm  4  average F1 Score for  10  topics:  0.23703480068379612
+Algorithm  4  % improvement over humans for  10  topics:  12.971644394951296 
 
-Algorithm  1  average F1 Score for  9  topics:  0.20424042904208972
-Algorithm  1  % improvement over humans for  9  topics:  5.2234684457876535 
+Human  2  topic:  customer service  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  2  topic:  customer service
+Human  1  topic:  ﻿easy use  paired greater than 0.3 with Human  2  topic:  ease of use
+Human  1  topic:  ﻿easy use  paired greater than 0.3 with Human  3  topic:  easy to use
+Human  2  topic:  ease of use  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Human  2  topic:  ease of use  paired greater than 0.3 with Human  3  topic:  easy to use
+Human  3  topic:  easy to use  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Human  3  topic:  easy to use  paired greater than 0.3 with Human  2  topic:  ease of use
+Human  1  topic:  customer service  paired greater than 0.3 with Human  2  topic:  customer service
+Human  1  topic:  ﻿easy use  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  1  topic:  complex survey  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  1  topic:  customer service  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  customer service  paired greater than 0.3 with Human  1  topic:  customer service
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  1  topic:  complex survey
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  4  topic:  extensive functionality
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  customer service
+Human  4  topic:  extensive functionality  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  1  topic:  tech support  paired greater than 0.3 with Human  2  topic:  customer service
+Human  1  topic:  customer service  paired greater than 0.3 with Human  3  topic:  customer service
+Human  1  topic:  tech support  paired greater than 0.3 with Human  3  topic:  customer service
+Human  1  topic:  tech support  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  customer service  paired greater than 0.3 with Human  1  topic:  tech support
+Human  2  topic:  customer service  paired greater than 0.3 with Human  3  topic:  customer service
+Human  2  topic:  cost  paired greater than 0.3 with Human  3  topic:  affordable cost
+Human  3  topic:  customer service  paired greater than 0.3 with Human  1  topic:  customer service
+Human  3  topic:  customer service  paired greater than 0.3 with Human  1  topic:  tech support
+Human  3  topic:  affordable cost  paired greater than 0.3 with Human  2  topic:  cost
+Human  3  topic:  customer service  paired greater than 0.3 with Human  2  topic:  customer service
+Human  3  topic:  customer service  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  tech support
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  3  topic:  customer service
+Human  1  topic:  ﻿easy use  paired greater than 0.3 with Human  2  topic:  general capabilities
+Human  1  topic:  great tool  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  1  topic:  great tool  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  general capabilities  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Human  2  topic:  general capabilities  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  1  topic:  great tool
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  2  topic:  general capabilities
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  great tool
+Human  1  topic:  great product  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  problems and bugs  paired greater than 0.3 with Human  4  topic:  substantial issue
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  great product
+Human  4  topic:  substantial issue  paired greater than 0.3 with Human  2  topic:  problems and bugs
+Human  1  topic:  nice feature  paired greater than 0.3 with Human  3  topic:  excellent features
+Human  2  topic:  cost  paired greater than 0.3 with Human  4  topic:  high price
+Human  2  topic:  reporting services  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  3  topic:  excellent features  paired greater than 0.3 with Human  1  topic:  nice feature
+Human  3  topic:  affordable cost  paired greater than 0.3 with Human  4  topic:  high price
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  2  topic:  reporting services
+Human  4  topic:  high price  paired greater than 0.3 with Human  2  topic:  cost
+Human  4  topic:  high price  paired greater than 0.3 with Human  3  topic:  affordable cost
+Human  1  topic:  intuitive software  paired greater than 0.3 with Human  2  topic:  customer service
+Human  1  topic:  intuitive software  paired greater than 0.3 with Human  3  topic:  customer service
+Human  1  topic:  intuitive software  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  customer service  paired greater than 0.3 with Human  1  topic:  intuitive software
+Human  2  topic:  customer service  paired greater than 0.3 with Human  3  topic:  response time
+Human  3  topic:  customer service  paired greater than 0.3 with Human  1  topic:  intuitive software
+Human  3  topic:  response time  paired greater than 0.3 with Human  2  topic:  customer service
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  intuitive software
+Human  1  topic:  question design  paired greater than 0.3 with Human  2  topic:  survey creation
+Human  2  topic:  survey creation  paired greater than 0.3 with Human  1  topic:  question design
+Human  2  topic:  look and feel  paired greater than 0.3 with Human  4  topic:  user friendly interface
+Human  4  topic:  user friendly interface  paired greater than 0.3 with Human  2  topic:  look and feel
+Human  1  topic:  great product  paired greater than 0.3 with Human  3  topic:  research
+Human  1  topic:  best platform  paired greater than 0.3 with Human  3  topic:  research
+Human  1  topic:  best platform  paired greater than 0.3 with Human  4  topic:  responsive customer service
+Human  2  topic:  problems and bugs  paired greater than 0.3 with Human  4  topic:  sluggish website
+Human  3  topic:  research  paired greater than 0.3 with Human  1  topic:  great product
+Human  3  topic:  research  paired greater than 0.3 with Human  1  topic:  best platform
+Human  4  topic:  responsive customer service  paired greater than 0.3 with Human  1  topic:  best platform
+Human  4  topic:  sluggish website  paired greater than 0.3 with Human  2  topic:  problems and bugs
+Algorithm  1  topic:  qualtrics  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  complex survey
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  customer service
+Algorithm  1  topic:  qualtrics  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  1  topic:  complex survey
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  1  topic:  customer service
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  4  topic:  flexible product
+Algorithm  4  topic:  user friendly  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  4  topic:  user friendly  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  4  topic:  user friendly  paired greater than 0.3 with Human  4  topic:  flexible product
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  tech support
+Algorithm  1  topic:  qualtrics  paired greater than 0.3 with Human  1  topic:  great tool
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  great tool
+Algorithm  3  topic:  robust capabilities  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  3  topic:  robust capabilities  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  3  topic:  robust capabilities  paired greater than 0.3 with Human  4  topic:  versatile report
+Algorithm  1  topic:  qualtrics  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  4  topic:  user friendly  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  2  topic:  effective solution  paired greater than 0.3 with Human  1  topic:  question design
+Algorithm  3  topic:  useful quality  paired greater than 0.3 with Human  1  topic:  question design
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  1  topic:  complex survey
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  1  topic:  customer service
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  4  topic:  flexible product
+Algorithm  4  topic:  complex functions  paired greater than 0.3 with Human  1  topic:  question design
+Algorithm  4  topic:  usability functionality  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  1  topic:  qualtrics  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  1  topic:  surveys  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  2  topic:  robust capabilities  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  2  topic:  robust capabilities  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  2  topic:  robust capabilities  paired greater than 0.3 with Human  4  topic:  versatile report
+Algorithm  3  topic:  friendly user  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  3  topic:  friendly interface  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  1  topic:  ﻿easy use
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  1  topic:  complex survey
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  1  topic:  customer service
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  1  topic:  intuitive software
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  3  topic:  useful quality  paired greater than 0.3 with Human  3  topic:  research
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  3  topic:  excellent features
+Algorithm  3  topic:  excellent platform  paired greater than 0.3 with Human  4  topic:  flexible product
+Algorithm  4  topic:  user friendly  paired greater than 0.3 with Human  1  topic:  best platform
+Algorithm  4  topic:  complex reports  paired greater than 0.3 with Human  1  topic:  question design
 
-Algorithm  2  average F1 Score for  9  topics:  0.17253474982242029
-Algorithm  2  % improvement over humans for  9  topics:  -0.021566843727802543 
+Best topic for Algorithm  1  with  1  topics:  qualtrics
+Best topic for Algorithm  2  with  1  topics:  opt outs
+Best topic for Algorithm  3  with  1  topics:  request feature
+Best topic for Algorithm  4  with  1  topics:  continuous improvement
+Best topic for Algorithm  1  with  2  topics:  surveys
+Best topic for Algorithm  2  with  2  topics:  smaller businesses
+Best topic for Algorithm  3  with  2  topics:  specific problems
+Best topic for Algorithm  4  with  2  topics:  cost effective
+Best topic for Algorithm  1  with  3  topics:  surveys
+Best topic for Algorithm  2  with  3  topics:  opt outs
+Best topic for Algorithm  3  with  3  topics:  friendly user
+Best topic for Algorithm  4  with  3  topics:  user friendly
+Best topic for Algorithm  1  with  4  topics:  surveys
+Best topic for Algorithm  2  with  4  topics:  opt outs
+Best topic for Algorithm  3  with  4  topics:  friendly user
+Best topic for Algorithm  4  with  4  topics:  user friendly
+Best topic for Algorithm  1  with  5  topics:  surveys
+Best topic for Algorithm  2  with  5  topics:  opt outs
+Best topic for Algorithm  3  with  5  topics:  friendly user
+Best topic for Algorithm  4  with  5  topics:  user friendly
+Best topic for Algorithm  1  with  6  topics:  surveys
+Best topic for Algorithm  2  with  6  topics:  opt outs
+Best topic for Algorithm  3  with  6  topics:  friendly user
+Best topic for Algorithm  4  with  6  topics:  user friendly
+Best topic for Algorithm  1  with  7  topics:  surveys
+Best topic for Algorithm  2  with  7  topics:  effective solution
+Best topic for Algorithm  3  with  7  topics:  friendly user
+Best topic for Algorithm  4  with  7  topics:  user friendly
+Best topic for Algorithm  1  with  8  topics:  surveys
+Best topic for Algorithm  2  with  8  topics:  effective solution
+Best topic for Algorithm  3  with  8  topics:  friendly user
+Best topic for Algorithm  4  with  8  topics:  user friendly
+Best topic for Algorithm  1  with  9  topics:  surveys
+Best topic for Algorithm  2  with  9  topics:  effective solution
+Best topic for Algorithm  3  with  9  topics:  friendly user
+Best topic for Algorithm  4  with  9  topics:  user friendly
+Best topic for Algorithm  1  with  10  topics:  surveys
+Best topic for Algorithm  2  with  10  topics:  effective solution
+Best topic for Algorithm  3  with  10  topics:  friendly user
+Best topic for Algorithm  4  with  10  topics:  user friendly
 
-Algorithm  3  average F1 Score for  9  topics:  0.20686599745396347
-Algorithm  3  % improvement over humans for  9  topics:  6.576145857575311 
-
-Algorithm  4  average F1 Score for  9  topics:  0.19107189021616167
-Algorithm  4  % improvement over humans for  9  topics:  -0.0030297033340611623 
-
-Average F1 Score across all algorithms for  9  topics:  0.19367826663365878 
-
-Algorithm  1  average F1 Score for  10  topics:  0.20182747885568275
-Algorithm  1  % improvement over humans for  10  topics:  6.718431667763141 
-
-Algorithm  2  average F1 Score for  10  topics:  0.17440986761976007
-Algorithm  2  % improvement over humans for  10  topics:  -0.014711613741598406 
-
-Algorithm  3  average F1 Score for  10  topics:  0.21734608183203571
-Algorithm  3  % improvement over humans for  10  topics:  14.924058476862227 
-
-Algorithm  4  average F1 Score for  10  topics:  0.1991123372236881
-Algorithm  4  % improvement over humans for  10  topics:  5.282771576455598 
-
-Average F1 Score across all algorithms for  10  topics:  0.19817394138279165 
-
+general capabilities  paired more than 5 times with algorithm topics
+tech support  paired more than 5 times with algorithm topics
+responsive customer service  paired more than 5 times with algorithm topics
+﻿easy use  paired more than 5 times with algorithm topics
+versatile report  paired more than 5 times with algorithm topics
+great tool  paired more than 5 times with algorithm topics
+flexible product  paired more than 5 times with algorithm topics
+customer service  paired more than 5 times with algorithm topics
+question design  paired more than 5 times with algorithm topics
+excellent features  paired more than 5 times with algorithm topics
+intuitive software  paired more than 5 times with algorithm topics
+ease of use  paired more than 5 times with algorithm topics
